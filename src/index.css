@@ -1,22 +1,40 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #0B0B0B;
+  --color-primary: #080808;
   --color-secondary: #121212;
-  --color-gold: #D4AF37;
-  --color-gold-hover: #B8962E;
+  --color-gold: #C5A021;
+  --color-gold-hover: #A6851A;
   
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-primary text-white font-sans antialiased;
+    @apply text-white font-sans antialiased selection:bg-gold selection:text-primary;
+    background-attachment: fixed;
+    background-color: #1a1a1a;
+    background-image: 
+      linear-gradient(to bottom, rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.8)),
+      url('https://www.transparenttextures.com/patterns/dark-matter.png'),
+      url('https://images.unsplash.com/photo-1586075010633-244419d62315?q=80&w=2070&auto=format&fit=crop');
+    background-size: auto, auto, cover;
+    background-blend-mode: overlay, normal, multiply;
   }
 }
 
 @layer utilities {
   .text-gradient-gold {
-    @apply bg-clip-text text-transparent bg-linear-to-r from-gold to-[#F5E1A4];
+    @apply bg-clip-text text-transparent bg-linear-to-r from-gold via-[#F5E1A4] to-gold;
+  }
+  
+  .bg-matte-texture {
+    background-color: #1a1a1a;
+    background-image: 
+      linear-gradient(to bottom, rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.8)),
+      url('https://www.transparenttextures.com/patterns/dark-matter.png'),
+      url('https://images.unsplash.com/photo-1586075010633-244419d62315?q=80&w=2070&auto=format&fit=crop');
+    background-size: auto, auto, cover;
+    background-blend-mode: overlay, normal, multiply;
   }
 }

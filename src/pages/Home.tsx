@@ -250,9 +250,9 @@ export default function App() {
             <div className="relative">
               <div className="aspect-square rounded-3xl overflow-hidden border border-white/10">
                 <img 
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2022&auto=format&fit=crop" 
+                  src="https://i.imgur.com/pCQ84MD.png" 
                   alt="Escritório Best Way" 
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
               </div>

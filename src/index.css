@@ -3,8 +3,8 @@
 @theme {
   --color-primary: #080808;
   --color-secondary: #121212;
-  --color-gold: #C5A021;
-  --color-gold-hover: #A6851A;
+  --color-gold: #EAB308;
+  --color-gold-hover: #FACC15;
   
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
@@ -25,7 +25,7 @@
 
 @layer utilities {
   .text-gradient-gold {
-    @apply bg-clip-text text-transparent bg-linear-to-r from-gold via-[#F5E1A4] to-gold;
+    @apply bg-clip-text text-transparent bg-linear-to-r from-gold via-[#FFF4D1] to-gold;
   }
   
   .bg-matte-texture {

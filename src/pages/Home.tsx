@@ -80,13 +80,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-matte-texture text-white selection:bg-gold selection:text-primary">
       {/* Navbar */}
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-black ${isScrolled ? 'border-b border-white/10 py-4' : 'py-6'}`}>
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="flex items-center gap-4 cursor-pointer" onClick={() => scrollToSection('hero')}>
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-black ${isScrolled ? 'border-b border-white/10 py-3 md:py-4' : 'py-4 md:py-6'}`}>
+        <div className="max-w-7xl mx-auto px-4 md:px-6 flex justify-between items-center">
+          <div className="flex items-center gap-2 md:gap-4 cursor-pointer" onClick={() => scrollToSection('hero')}>
             <img 
               src="https://i.imgur.com/CK0toOc.jpeg" 
               alt="Best Way Soluções Contábeis" 
-              className="h-12 w-auto object-contain"
+              className="h-8 md:h-12 w-auto object-contain"
               referrerPolicy="no-referrer"
               onError={(e) => {
                 // Fallback if image is not found
@@ -94,8 +94,8 @@ export default function App() {
                 e.currentTarget.nextElementSibling?.classList.remove('hidden');
               }}
             />
-            <div className="flex items-center gap-2">
-              <span className="text-xl font-bold tracking-tighter">
+            <div className="flex items-center gap-1 md:gap-2">
+              <span className="text-xs sm:text-sm md:text-xl font-bold tracking-tighter leading-tight">
                 BEST WAY <span className="text-gold">SOLUÇÕES CONTÁBEIS</span>
               </span>
             </div>
@@ -135,7 +135,7 @@ export default function App() {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="absolute top-full left-0 right-0 bg-secondary border-b border-white/10 p-6 flex flex-col gap-6 md:hidden"
+              className="absolute top-full left-0 right-0 bg-black border-b border-white/10 p-6 flex flex-col gap-6 md:hidden"
             >
               {['Serviços', 'Sobre', 'Diferenciais', 'Planos'].map((item) => (
                 <button 

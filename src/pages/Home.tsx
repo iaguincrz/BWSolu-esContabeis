@@ -536,7 +536,7 @@ export default function App() {
               </div>
               <div className="text-right">
                 <p className="text-2xl font-black text-gold">R$ 160</p>
-                <p className="text-[10px] uppercase tracking-widest text-white/30">Taxa Única</p>
+                <p className="text-[10px] uppercase tracking-widest text-white/30">Validade de 1 Ano</p>
               </div>
             </div>
             <div className="p-8 rounded-3xl bg-black/40 border border-white/10 flex items-center justify-between group hover:border-gold/30 transition-all">
@@ -551,7 +551,7 @@ export default function App() {
               </div>
               <div className="text-right">
                 <p className="text-2xl font-black text-gold">R$ 200</p>
-                <p className="text-[10px] uppercase tracking-widest text-white/30">Taxa Única</p>
+                <p className="text-[10px] uppercase tracking-widest text-white/30">Validade de 1 Ano</p>
               </div>
             </div>
           </div>

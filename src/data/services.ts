@@ -130,8 +130,8 @@ export const services = [
     desc: "Emita seu certificado digital com rapidez e segurança para assinar documentos e acessar portais do governo.",
     fullContent: "O certificado digital é a sua identidade no meio eletrônico. Com ele, você pode assinar documentos com validade jurídica, emitir notas fiscais e realizar transações bancárias com total segurança.",
     offerings: [
-      { title: "Pessoa Física (e-CPF)", description: "R$ 160,00. Ideal para profissionais liberais e sócios de empresas." },
-      { title: "Pessoa Jurídica (e-CNPJ)", description: "R$ 200,00. Necessário para a emissão de notas fiscais e obrigações da empresa." }
+      { title: "Pessoa Física (e-CPF)", description: "R$ 160,00. Validade de 1 Ano. Ideal para profissionais liberais e sócios de empresas." },
+      { title: "Pessoa Jurídica (e-CNPJ)", description: "R$ 200,00. Validade de 1 Ano. Necessário para a emissão de notas fiscais e obrigações da empresa." }
     ]
   },
   {

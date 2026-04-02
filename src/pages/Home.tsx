@@ -27,8 +27,7 @@ import {
   Linkedin,
   Facebook,
   Mail,
-  Phone,
-  MapPin
+  Phone
 } from 'lucide-react';
 import { motion, AnimatePresence, useInView, animate } from 'motion/react';
 import { services } from '../data/services';
@@ -113,7 +112,7 @@ export default function App() {
               </button>
             ))}
             <a 
-              href="https://wa.me/5511999999999" 
+              href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-gold text-primary px-6 py-2 rounded-full font-bold hover:bg-gold-hover transition-all transform hover:scale-105"
@@ -147,7 +146,7 @@ export default function App() {
                 </button>
               ))}
               <a 
-                href="https://wa.me/5511999999999" 
+                href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gold text-primary px-6 py-3 rounded-xl font-bold text-center"
@@ -186,7 +185,7 @@ export default function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="https://wa.me/5511999999999" 
+                  href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group bg-gold text-primary px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-gold-hover transition-all"
@@ -463,7 +462,14 @@ export default function App() {
                   </li>
                 ))}
               </ul>
-              <a href="https://wa.me/5511999999999" className="w-full py-4 rounded-xl border border-gold text-gold font-bold text-center hover:bg-gold hover:text-primary transition-all">Começar agora</a>
+              <a 
+                href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20plano%20MEI%20%28Servi%C3%A7os%29." 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 rounded-xl border border-gold text-gold font-bold text-center hover:bg-gold hover:text-primary transition-all"
+              >
+                Começar agora
+              </a>
             </div>
 
             {/* Plan 2 - Featured */}
@@ -487,7 +493,14 @@ export default function App() {
                   </li>
                 ))}
               </ul>
-              <a href="https://wa.me/5511999999999" className="w-full py-4 rounded-xl bg-gold text-primary font-bold text-center hover:bg-gold-hover transition-all">Começar agora</a>
+              <a 
+                href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20plano%20ME%20%28Simples%20Nacional%29." 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 rounded-xl bg-gold text-primary font-bold text-center hover:bg-gold-hover transition-all"
+              >
+                Começar agora
+              </a>
             </div>
 
             {/* Plan 3 */}
@@ -510,7 +523,14 @@ export default function App() {
                   </li>
                 ))}
               </ul>
-              <a href="https://wa.me/5511999999999" className="w-full py-4 rounded-xl border border-gold text-gold font-bold text-center hover:bg-gold hover:text-primary transition-all">Começar agora</a>
+              <a 
+                href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20plano%20Empresa%20com%20Funcion%C3%A1rios." 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 rounded-xl border border-gold text-gold font-bold text-center hover:bg-gold hover:text-primary transition-all"
+              >
+                Começar agora
+              </a>
             </div>
           </div>
 
@@ -653,7 +673,7 @@ export default function App() {
               Agende uma consultoria gratuita com nossos especialistas e descubra quanto sua empresa pode economizar.
             </p>
             <a 
-              href="https://wa.me/5511999999999" 
+              href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gold text-primary px-10 py-5 rounded-2xl font-black text-xl hover:bg-gold-hover transition-all transform hover:scale-105 shadow-2xl shadow-gold/20"
@@ -710,17 +730,13 @@ export default function App() {
             <div>
               <h4 className="font-bold mb-6 uppercase tracking-widest text-xs text-gold">Contato</h4>
               <ul className="space-y-4 text-sm text-white/50">
-                <li className="flex items-start gap-3">
-                  <MapPin size={18} className="text-gold shrink-0" />
-                  <span>Av. Paulista, 1000 - Bela Vista, São Paulo - SP</span>
-                </li>
                 <li className="flex items-center gap-3">
                   <Phone size={18} className="text-gold shrink-0" />
-                  <span>(11) 99999-9999</span>
+                  <span>(62) 9459-0572</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail size={18} className="text-gold shrink-0" />
-                  <span>contato@bestwaycontabil.com.br</span>
+                  <span>bwsolucoes062@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -728,9 +744,7 @@ export default function App() {
             <div>
               <h4 className="font-bold mb-6 uppercase tracking-widest text-xs text-gold">Horário</h4>
               <ul className="space-y-4 text-sm text-white/50">
-                <li>Segunda - Sexta: 08:00 - 18:00</li>
-                <li>Sábado: 09:00 - 13:00</li>
-                <li>Domingo: Fechado</li>
+                <li>Aberto 24h</li>
               </ul>
             </div>
           </div>
@@ -747,7 +761,7 @@ export default function App() {
 
       {/* Floating WhatsApp Button */}
       <a 
-        href="https://wa.me/5511999999999" 
+        href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-50 w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform group"

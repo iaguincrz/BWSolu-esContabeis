@@ -150,7 +150,7 @@ export default function ServiceDetail() {
                 Nossos especialistas estão prontos para analisar seu caso e propor a melhor solução para sua empresa.
               </p>
               <a 
-                href="https://wa.me/5511999999999" 
+                href="https://wa.me/556294590572?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gold text-primary px-8 py-4 rounded-xl font-bold text-lg hover:bg-gold-hover transition-all transform hover:scale-105"
